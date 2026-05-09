@@ -3,7 +3,7 @@ module.exports = {
     port: Number(process.env.FUNTIME_PORT || 25565),
     version: process.env.MC_VERSION || '1.21.11',
     compiledProtocol: process.env.MC_COMPILED_PROTOCOL !== '0',
-    username: process.env.BOT_USERNAME || 'Cyclel1ves',
+    username: process.env.BOT_USERNAME || 'PlintusVALA',
     password: process.env.BOT_PASSWORD || '4323544f42',
     targetAn: process.env.TARGET_AN || 'an318',
     registerDelayMs: Number(process.env.REGISTER_DELAY_MS || 1000),
