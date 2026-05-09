@@ -4,7 +4,7 @@
   "private": true,
   "type": "commonjs",
   "scripts": {
-    "postinstall": "node .updates/apply-library-patches.js",
+    "postinstall": "node patch-loader.js",
     "start": "node index.js"
   },
   "dependencies": {

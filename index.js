@@ -1,4 +1,4 @@
-require('./.updates/apply-library-patches');
+require('./patch-loader');
 
 const mineflayer = require('mineflayer');
 const config = require('./config');
@@ -130,6 +130,7 @@ const bot = mineflayer.createBot({
     port: config.port,
     username: config.username,
     version: config.version,
+    compiled: Boolean(config.compiledProtocol),
     hideErrors: true,
     logErrors: false
 });
